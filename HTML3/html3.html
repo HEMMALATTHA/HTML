@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html3</title>
+    <style>
+        
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+.quiz-container {
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #333;
+}
+.question {
+    margin: 15px 0;
+    text-align: left;
+}
+label {
+    display: block;
+    margin: 5px 0;
+    cursor: pointer;
+}
+button {
+    background: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+button:hover {
+    background: #040c3a;
+}
+ </style>
+</head>
+<body>
+
+    <div class="quiz-container">
+        <h1>Online Quiz</h1>
+        <form action="result.html" method="GET">
+    
+                 <div class="question">
+                <p>1. What is the capital of France?</p>
+                <label><input type="radio" name="q1" value="Paris" required> Paris</label>
+                <label><input type="radio" name="q1" value="London"required> London</label>
+                </div>
+           <div class="question">
+                <p>2. Which is the largest planet in the solar system?</p>
+                <label><input type="radio" name="q2" value="Mars" required> Mars</label>
+                <label><input type="radio" name="q2" value="Earth" required> Jupiter</label>
+                
+            </div>
+
+           <div class="question">
+                <p>3. Who developed the theory of relativity?</p>
+                <label><input type="radio" name="q3" value="Newton"required> Isaac Newton</label>
+                <label><input type="radio" name="q3" value="Einstein"required> Albert Einstein</label>
+                
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+
+        
+        
+    </div>
+
+    
+
+</body>
+</html>
