@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports News</title>
+    <style>
+        body {
+             font-family: Arial, sans-serif; 
+             margin: 0; 
+             padding: 0;
+             }
+        header, footer {
+             background: #333; 
+             color: white; 
+             text-align: center; 
+             padding: 1em;
+             }
+        nav a { 
+            color: white; 
+            margin: 0 15px;
+             text-decoration: none; 
+            }
+        main { 
+            display: flex; 
+            margin: 20px; 
+        }
+        article { 
+            flex: 2; 
+            padding: 20px; 
+            border-bottom: 1px solid #ccc;
+         }
+        aside { 
+            flex: 1; 
+            background: #f4f4f4; 
+            padding: 20px;
+         }
+         
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sports News</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Football</a>
+            <a href="#">Basketball</a>
+            <a href="#">Tennis</a>
+        </nav>
+    </header>
+    
+    <main>
+        <aside>
+            <h2>Latest Scores</h2>
+            <p><strong>Football:</strong> Team A 2 - 1 Team B</p>
+            <p><strong>Basketball:</strong> Team X 98 - 95 Team Y</p>
+            <p><strong>Tennis:</strong> Player 1 def. Player 2 (6-4, 7-5)</p>
+        </aside>
+    
+        <section >
+            <article>
+                <h2>Champions League Final: A Thrilling Match</h2>
+                <p><strong>Published:</strong> February 25, 2025</p>
+                <p>The Champions League final ended in dramatic fashion, with a last-minute goal securing victory.</p>
+            </article>
+        
+        
+            <article>
+                <h2>NBA Playoffs: Exciting Game 7</h2>
+                <p><strong>Published:</strong> February 24, 2025</p>
+                <p>The intense Game 7 of the NBA playoffs kept fans on the edge of their seats.</p>
+            </article>
+        </section>
+            
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Sports News. All rights reserved.</p>
+    </footer>
+</body>
+</html>
