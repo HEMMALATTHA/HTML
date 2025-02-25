@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>html9</title>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+header {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+header h1 {
+    margin: 0;
+}
+.navbar{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #222;
+        padding:15px 10px;
+    }
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+section {
+    width: 60%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #222;
+}
+
+.blog-post {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.blog-post h3 {
+    color: #007bff;
+}
+
+.blog-post a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.blog-post a:hover {
+    text-decoration: underline;
+}
+#sidebar {
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+#sidebar ul li {
+    margin: 10px 0;
+}
+
+#sidebar ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #ffcc66;
+    text-decoration: none;
+}
+
+.author-bio {
+    margin-bottom: 15px;
+}
+.logo a{
+        text-decoration: none;
+        color:rgb(238, 231, 231);
+        font-weight: bold;
+        font-size:50px;
+    }
+    .logo{
+        padding:10px;}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tech Development</h1>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#"><i class='bx bxs-business'></i>TechD</a>
+                
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Articles</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="featured">
+        <h2>Featured Articles</h2>
+
+        <article class="blog-post">
+            <h3>The Future of AI in Web Development</h3>
+            <p>Artificial Intelligence is transforming web development in many ways. Learn how AI-powered tools enhance user experience...</p>
+            <p><strong>Published on:</strong> February 25, 2025</p>
+            <a href="#">Read More</a>
+        </article>
+
+        <article class="blog-post">
+            <h3>Top 10 JavaScript Frameworks to Learn in 2025</h3>
+            <p>JavaScript frameworks are evolving rapidly. Discover the top 10 frameworks you should master this year...</p>
+            <p><strong>Published on:</strong> February 20, 2025</p>
+            <a href="#">Read More</a>
+        </article>
+
+        <article class="blog-post">
+            <h3>Cybersecurity Trends: Protecting Your Data</h3>
+            <p>With the rise of cyber threats, staying updated on cybersecurity trends is crucial. Here’s what you need to know...</p>
+            <p><strong>Published on:</strong> February 15, 2025</p>
+            <a href="#">Read More</a>
+        </article>
+    </section>
+    <aside id="sidebar">
+        <h2>Recent Posts</h2>
+        <ul>
+            <li><a href="#">How 5G is Changing the Internet</a></li>
+            <li><a href="#">Best Programming Languages for 2025</a></li>
+            <li><a href="#">Introduction to Web3 Development</a></li>
+            <li><a href="#">The Evolution of Cloud Computing</a></li>
+        </ul>
+    </aside>
+    <footer>
+        <div class="author-bio">
+            <h2>About the Author</h2>
+            <p>Sridhar is a technology enthusiast and software developer with a passion for sharing knowledge about web development, AI, and cybersecurity.</p>
+        </div>
+        <p>Contact: sridhar@example.com | <a href="#">LinkedIn</a> | <a href="#">Twitter</a></p>
+    </footer>
+
+</body>
+</html>
